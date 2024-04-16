@@ -1,0 +1,228 @@
+/* Styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Styles for the chart wrapper */
+.chart-wrapper {
+    width: calc(45vw + 25px); /* 45vw chart width + 25px margin */
+    height: 70vh;
+}
+
+/* Styles for the container */
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Styles for the myChart element */
+#myChart {
+    background-color: #ffffff;
+    max-width: 45vw;
+    max-height: 60vh;
+    margin-left: 25px;
+    display: none;
+}
+
+/* Styles for the winning-project element */
+#winning-project {
+    margin-top: 30px;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Styles for the content-wrapper element */
+.content-wrapper {
+    display: flex;
+    overflow: auto;
+}
+
+/* Styles for the tablesContainer element */
+#tablesContainer {
+    flex-direction: row;
+}
+
+/* Styles for the tables inside tablesContainer */
+#tablesContainer table {
+    max-width: 45vw;
+    min-width: 45vw;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+/* Styles for the h1 element */
+h1 {
+    color: #333;
+    font-size: 5em;
+    margin-top: 0;
+    font-family: cursive;
+}
+
+/* Styles for the th and td elements */
+th,
+td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+/* Styles for the th element */
+th {
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Styles for the td element */
+td {
+    vertical-align: top;
+}
+
+/* Styles for the orange class */
+.orange {
+    background-color: #f5e3a5;
+}
+
+/* Styles for the darkPink class */
+.darkPink {
+    background-color: #f6d3cc;
+}
+
+/* Styles for the lightPink class */
+.lightPink {
+    background-color: #faeae7;
+}
+
+/* Styles for the break element */
+#break {
+    height: 5px;
+}
+
+/* Styles for the button-container element */
+.button-container {
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+
+/* Styles for the addTableBtn element */
+#addTableBtn {
+    background-color: #04aa6d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the addTableBtn element on hover */
+#addTableBtn:hover {
+    background-color: #059862;
+}
+
+/* Styles for the title element */
+#title {
+    color: #fff;
+}
+
+/* Styles for the bold class */
+.bold {
+    font-weight: bold;
+}
+
+/* Styles for the clickable class */
+.clickable {
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the clickable class on hover */
+.clickable:hover {
+    user-select: none;
+    cursor: pointer;
+    background-color: #c4b684;
+}
+
+/* Styles for the background-container element */
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* Styles for the background element */
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+/* Styles for the scrollbar */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Styles for the scrollbar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Styles for the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Styles for the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Styles for the close-button element */
+.close-button {
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    float: right;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+/* Styles for the close-button pseudo-elements */
+.close-button:before,
+.close-button:after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: #000;
+    border-radius: 4px;
+}
+
+/* Styles for the close-button before pseudo-element */
+.close-button:before {
+    transform: rotate(45deg);
+}
+
+/* Styles for the close-button after pseudo-element */
+.close-button:after {
+    transform: rotate(-45deg);
+}

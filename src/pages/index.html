@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NPV Calculator | Assassxn</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script> <!-- 3D rendering library for web (needed for the background library) -->
+        <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.waves.min.js"></script> <!-- 3D background library from https://www.vantajs.com/?effect=waves -->
+    </head>
+    <body>
+        <div class="background-container"><div class="background"></div></div>
+
+        <div class="container" spellcheck="false">
+            <h1 id="title" contenteditable="true">NPV Calculator By Assassxn</h1>
+            <div class="button-container"><button id="addTableBtn">Add Project</button></div>
+            <div class="content-wrapper">
+                <div id="tablesContainer"></div>
+                <div class="chart-wrapper">
+                    <h1 id="winning-project"></h1>
+                </div>
+            </div>
+        </div>
+        
+        <script src="../js/main.js"></script>
+    </body>
+</html>
